@@ -83,7 +83,7 @@ app.use((req, res, next) => {
 mongoose.connect(process.env.MONG_URI)
     .then(() => {
         app.listen(process.env.PORT, () => {
-            console.log('Listening to port 7000!!!')
+            console.log('Listening to port 3000!!!')
         })
     })
     .catch((err) => {
